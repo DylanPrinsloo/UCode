@@ -53,15 +53,15 @@ root.title("Student Grade Calculator")
 
 # Create a frame for the file selection and calculation
 frame = ttk.Frame(root, padding="10")
-frame.grid(row=0, column=0, sticky=(tk.W, tk.E))
+frame.grid(row=5, column=5, sticky=(tk.W, tk.E))
 
 # Add a button to open the CSV file
 open_button = ttk.Button(frame, text="Open CSV File", command=open_file)
 open_button.grid(row=0, column=0, padx=5, pady=5)
 
 # Create a frame to display the results
-result_frame = ttk.Frame(root, padding="10")
-result_frame.grid(row=1, column=0, sticky=(tk.W, tk.E))
+result_frame = ttk.Frame(root, padding="20")
+result_frame.grid(row=0, column=0, sticky=(tk.W, tk.E))
 
 # Start the GUI event loop
 root.mainloop()
