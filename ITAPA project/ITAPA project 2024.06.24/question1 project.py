@@ -1,6 +1,5 @@
 import tkinter as tk
-from tkinter import filedialog, messagebox, ttk
-import re
+from tkinter import filedialog, messagebox
 import pandas as pd
 from concurrent.futures import ThreadPoolExecutor
 
@@ -8,10 +7,10 @@ class GradeCalculator:
     def __init__(self, root):
         self.root = root
         self.root.title("Grade Calculator")
-
         self.file_path = tk.StringVar()
 
         # CSV file path entry
+
         self.label_file_path = tk.Label(root, text="CSV file path:")
         self.label_file_path.grid(row=0, column=0, padx=10, pady=10)
 
@@ -19,15 +18,18 @@ class GradeCalculator:
         self.entry_file_path.grid(row=0, column=1, padx=10, pady=10)
 
         # Load CSV button
+
         self.button_load_csv = tk.Button(root, text="Load CSV File", command=self.load_csv)
         self.button_load_csv.grid(row=1, column=0, padx=10, pady=10, columnspan=2)
 
         # Calculate Grades button
+
         self.button_calculate_grades = tk.Button(root, text="Calculate Grades", command=self.calculate_grades)
         self.button_calculate_grades.grid(row=2, column=0, padx=10, pady=10, columnspan=2)
 
         # Display grades area
-        self.text_display_grades = tk.Text(root, height=20, width=60)
+
+        self.text_display_grades = tk.Text(root, height=25, width=70)
         self.text_display_grades.grid(row=3, column=0, columnspan=2, padx=10, pady=10)
         self.text_display_grades.insert(tk.END, "Display Grades Here")
 
@@ -35,10 +37,19 @@ class GradeCalculator:
         file_path = filedialog.askopenfilename(filetypes=[("CSV Files", "*.csv")])
         if file_path:
             self.file_path.set(file_path)
+            self.display_csv(file_path)
 
     def read_csv(self, file_path):
         df = pd.read_csv(file_path)
         return df
+
+    def display_csv(self, file_path):
+        try:
+            df = self.read_csv(file_path)
+            self.text_display_grades.delete(1.0, tk.END)
+            self.text_display_grades.insert(tk.END, df.to_string(index=False))
+        except Exception as e:
+            messagebox.showerror("Error", f"Rrror loading the CSV file: {e}")
 
     def convert_value(self, value):
         if re.match(r'^\d+$', str(value)):
@@ -66,11 +77,13 @@ class GradeCalculator:
             return
         try:
             df = self.read_csv(file_path)
-            weights = [0.3, 0.3, 0.4]  # Example weights for assignment, midterm, final_exam
+
+            # weight classes 
+            weights = [0.3, 0.3, 0.4] 
             grades = self.calculate_grades_multithreaded(df, weights)
             self.display_grades(grades)
-        except Exception as e:
-            messagebox.showerror("Error", f"An error occurred: {e}")
+        except Exception as f:
+            messagebox.showerror("Error", f"An error occurred: {f}")
 
     def display_grades(self, grades):
         self.text_display_grades.delete(1.0, tk.END)
@@ -81,5 +94,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = GradeCalculator(root)
     root.mainloop()
-
-
