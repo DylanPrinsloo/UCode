@@ -1,3 +1,3 @@
 # University-Code
 
-### BSc in Computer Science
+### BSc Computer Science
