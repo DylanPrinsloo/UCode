@@ -10,40 +10,43 @@ _All folders with * are not needed or finished_
 
 ### Base
 
-|   LICENSE
-|   README.md
+```
+| LICENSE
+| README.md
 │
 └─── Year 1
 │   │
-|   └─── Sem 1
-|   |   
-│   └─── Introduction to programming(C++)*
+│   └─── Sem 1
+│   │
+│   └─── Introduction to programming (C++)*
 │   └─── Computer Science Introduction (Python)
 │   └─── User Interface Design and Implementation*
 │   └─── Computer Systems and Graphics*
-|   |   
-|   └─── Sem 2
-│   └─── Data Science Introduction(Python)
-│   └─── Introduction to Algorithms(Python)
-|   └─── Introduction Data structures
-|   └─── Introduction to Cybersecurity*
-│   
-└───Year 2
-|   |
-|   └─── Sem 3
-|   |   |
-|   |   └─── Database systems(SQL)
-|   |   └─── Advanced Data structures
-|   |   └─── Introduction to Machine Learning (Python)*
-|   |   └─── Introduction to Natural Language Processing (python)*
-|   |
-|   └─── Sem 4
-|       |
-|       └─── Mobile Application Development and Big Data(Java)*
-|       └─── Advanced Cybersecurity*
-|       └─── 
-│   
-└───Year 3 (still awaiting)
+│   │
+│   └─── Sem 2
+│   │
+│   └─── Data Science Introduction (Python)
+│   └─── Introduction to Algorithms (Python)
+│   └─── Introduction to Data Structures
+│   └─── Introduction to Cybersecurity*
+│
+└─── Year 2
+│   │
+│   └─── Sem 3
+│   │
+│   └─── Database Systems (SQL)
+│   └─── Advanced Data Structures
+│   └─── Introduction to Machine Learning (Python)*
+│   └─── Introduction to Natural Language Processing (Python)*
+│   │
+│   └─── Sem 4
+│   │
+│   └─── Mobile Application Development and Big Data (Java)*
+│   └─── Advanced Cybersecurity*
+│   └─── 
+│
+└─── Year 3 (still awaiting)
+```
 
 
 
