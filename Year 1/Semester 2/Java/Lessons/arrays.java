@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 
 public class arrays {
     public static void main(String[] args) {
@@ -14,9 +15,17 @@ public class arrays {
 
         int[] number = {2,4,7,8,10};
 
-        int x = number[3];
-        System.out.println(x);
-        
+        int a = number[3];
+        System.out.println(a);
+
+
+        int[] x = {-88, 54, 43, 23, 25, 88};
+
+        Arrays.sort(x, 1, 7);  // sorting an array or sort(x)
+
+        for ( int i:x) {
+            System.out.println(i + ",");
+        }  
     }
     
 }
