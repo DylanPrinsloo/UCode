@@ -27,5 +27,7 @@ public class discussion {
         micheal.speak();
 
         // boble.graduate();  cant call this as its a private method!
+
+       
     }
 }

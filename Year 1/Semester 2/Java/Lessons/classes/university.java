@@ -2,7 +2,7 @@ package  classes;
 
 public class university {
 
-    private String name;
+    public String name;
     private int year;
 
     // constructor method
@@ -23,7 +23,7 @@ public class university {
         return this.year();
     }
 
-    // chnage the university or year?
+    // change the university or year?
 
     public void setYear(int year) {
         this.year = year;
