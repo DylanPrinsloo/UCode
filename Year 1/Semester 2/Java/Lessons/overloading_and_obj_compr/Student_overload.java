@@ -35,5 +35,11 @@ public class Student_overload implements Comparable<Student> {
     public void setName(String name) {
         this.name = name;
     }
+
+    public String toString() {
+        return "Student(" + this.name +")";
+    }
+
+
 }
 
