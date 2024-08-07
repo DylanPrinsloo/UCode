@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 
-public class methods_pub {
+public class public_methods {
     
     public static void details(String n, String b, String c) {
         System.out.println("Hello " + n + b + ". Your Student Id is: " + c);
