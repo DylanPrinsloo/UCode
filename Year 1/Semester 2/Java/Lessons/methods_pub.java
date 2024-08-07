@@ -21,6 +21,7 @@ public class methods_pub {
         details(name, surname, studentId);
 
         System.out.println("You have entered your detials");
+        input.close();
         
     }
     }
