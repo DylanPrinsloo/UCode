@@ -18,12 +18,11 @@ _All folders with * are not needed or finished_
 │   │
 │   └─── Sem 1
 │   │
-│   └─── Introduction to programming (C++)*
+│   └─── Sem 2
+│   └─── Introduction to programming (Java)
 │   └─── Computer Science Introduction (Python)
 │   └─── User Interface Design and Implementation*
 │   └─── Computer Systems and Graphics*
-│   │
-│   └─── Sem 2
 │   │
 │   └─── Data Science Introduction (Python)
 │   └─── Introduction to Algorithms (Python)
@@ -34,10 +33,12 @@ _All folders with * are not needed or finished_
 │   │
 │   └─── Sem 3
 │   │
-│   └─── Database Systems (SQL)
+│   └─── Advanced Algorithms (Python)
+│   └─── Data Science (Python)
+│   └─── Database Systems (SQL)*
 │   └─── Advanced Data Structures
-│   └─── Introduction to Machine Learning (Python)*
-│   └─── Introduction to Natural Language Processing (Python)*
+│   └─── Introduction to Machine Learning (Python)
+│   └─── Introduction to Natural Language Processing (Python)
 │   │
 │   └─── Sem 4
 │   │
