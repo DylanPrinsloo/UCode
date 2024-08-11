@@ -83,7 +83,7 @@ def get_guessed_word(secret_word, letters_guessed):
     if letters_guessed != secret_word:
       return "__ "
     if letters_guessed == secret_word:
-        return letters_guessed
+      return letters_guessed
         
       
 
