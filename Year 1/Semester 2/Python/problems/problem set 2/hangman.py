@@ -1,7 +1,7 @@
 # Problem Set 2, hangman.py
-# Name: 
-# Collaborators:
-# Time spent:
+# Name: Dylan Prinsloo
+# Collaborators: None
+# Time spent: 
 
 # Hangman Game
 # -----------------------------------
@@ -12,7 +12,8 @@
 import random
 import string
 
-WORDLIST_FILENAME = "words.txt"
+
+WORDLIST_FILENAME = "Year 1\Semester 2\Python\problems\problem set 2\words.txt"
 
 
 def load_words():
@@ -29,7 +30,7 @@ def load_words():
     line = inFile.readline()
     # wordlist: list of strings
     wordlist = line.split()
-    print("  ", len(wordlist), "words loaded.")
+    print("  ", len(WORDLIST_FILENAME), "words loaded.")
     return wordlist
 
 
@@ -61,7 +62,13 @@ def is_word_guessed(secret_word, letters_guessed):
       False otherwise
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
+    letters_guessed = []
+    secret_word = "apple"
+    
+    if secret_word == letters_guessed:
+      return True
+    else:
+      return False
 
 
 
@@ -73,7 +80,12 @@ def get_guessed_word(secret_word, letters_guessed):
       which letters in secret_word have been guessed so far.
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
+    if letters_guessed != secret_word:
+      return "__ "
+    if letters_guessed == secret_word:
+        return letters_guessed
+        
+      
 
 
 
@@ -84,7 +96,8 @@ def get_available_letters(letters_guessed):
       yet been guessed.
     '''
     # FILL IN YOUR CODE HERE AND DELETE "pass"
-    pass
+    
+        
     
     
 
