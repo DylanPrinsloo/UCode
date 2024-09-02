@@ -22,10 +22,10 @@ _Some Content from the degree are not code related, or are not needed or not fin
 |   |
 │   └─── Introduction to programming (Java)
 │   └─── Computer Science Introduction (Python)
+│   └─── Object-oriented concepts(covered in folders prior)
 │   │
 │   └─── Sem 2
 |   |
-│   └─── Object-oriented concepts(covered in folders prior)
 │   └─── Data Structures and Algorithms
 │   └─── Web development
 │
