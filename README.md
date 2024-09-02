@@ -19,10 +19,12 @@ _Some Content from the degree are not code related, or are not needed or not fin
 └─── Year 1
 │   │
 │   └─── Sem 1
+|   |
 │   └─── Introduction to programming (Java)
 │   └─── Computer Science Introduction (Python)
 │   │
 │   └─── Sem 2
+|   |
 │   └─── Object-oriented concepts(covered in folders prior)
 │   └─── Data Structures and Algorithms
 │   └─── Web development
@@ -56,6 +58,8 @@ _Some Content from the degree are not code related, or are not needed or not fin
 │   └─── Cloud Computing
 │   └─── Human Computer Interaction or Robotics
 │   └─── Hass or STS
+|   
+└─── End
 ```
 
 
