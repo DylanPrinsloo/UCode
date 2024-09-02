@@ -34,7 +34,7 @@ _Some Content from the degree are not code related, or are not needed or not fin
 │   └─── Sem 3
 │   │
 │   └─── Advanced Algorithms (Python)
-│   └─── Data Science (Python)
+│   └─── Data Science/Scientific(Python)
 │   └─── Database Managment Systems (SQL)
 |   └─── Operating Systems
 │   │
