@@ -62,6 +62,7 @@ _Some Content from the degree are not code related, or are not needed or not fin
 └─── added content
 |   |
 |   |
+│   └─── Julia 
 │   └─── Scheme/Lisp
 │   └─── Haskell
 │   └─── ROS (Robot Operating System)
