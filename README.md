@@ -59,9 +59,15 @@ _Some Content from the degree are not code related, or are not needed or not fin
 │   └─── Human Computer Interaction or Robotics
 │   └─── Hass or STS
 |   
+└─── added content
+|   |
+|   |
+│   └─── Scheme/Lisp
+│   └─── Haskell
+│   └─── ROS (Robot Operating System)
+|
 └─── End
 ```
-
 
 
 
