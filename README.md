@@ -20,7 +20,7 @@ _Some Content from the degree are not code related, or are not needed or not fin
 │   │
 │   └─── Sem 1
 |   |
-│   └─── Introduction to programming (Java)
+│   └─── Introduction to programming (C)
 │   └─── Computer Science Introduction (Python)
 │   └─── Object-oriented concepts(covered in folders prior)
 │   │
@@ -29,7 +29,7 @@ _Some Content from the degree are not code related, or are not needed or not fin
 │   └─── Data Structures and Algorithms
 │   └─── Web development
 │
-└─── Year 2
+└─── Year 2 (Still busy)
 │   │
 │   └─── Sem 3
 │   │
@@ -40,7 +40,7 @@ _Some Content from the degree are not code related, or are not needed or not fin
 │   │
 │   └─── Sem 4
 │   │
-│   └─── Mobile Application Development and Big Data (Java)
+│   └─── Mobile Application Development and Big Data ()
 │   └─── Networking and Distributed Systems
 │   └─── Human-Computer Interation
 │
