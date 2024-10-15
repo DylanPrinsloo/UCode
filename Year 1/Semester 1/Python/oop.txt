@@ -1,0 +1,17 @@
+GUI 
+XML files, processing
+Parsing
+@decorators
+Unittest 
+databases
+tables
+SQLite
+Numpy
+Pandas
+Debugging 
+working files
+pickling
+RE
+patterns
+Networks
+Multi-threading
